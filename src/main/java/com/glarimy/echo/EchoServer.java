@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class EchoServer {
     @GetMapping("/echo/{name}")
     public String echo(@PathVariable("name") String name){
-        return "Hello, " + name + "!\n";
+        return "Hello, " + name + "! Good morning.\n";
     }
 }
